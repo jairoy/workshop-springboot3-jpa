@@ -29,6 +29,6 @@ public class CategoryResource {
 	public ResponseEntity<Category> findById(@PathVariable Long id){
 		Category obj = service.findById(id);
 		return ResponseEntity.ok().body(obj);
-	}	
+	}
 
 }
