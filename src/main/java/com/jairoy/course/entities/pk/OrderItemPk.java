@@ -3,6 +3,7 @@ package com.jairoy.course.entities.pk;
 import java.io.Serializable;
 import java.util.Objects;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.jairoy.course.entities.Order;
 import com.jairoy.course.entities.Product;
 
@@ -29,6 +30,7 @@ public class OrderItemPk implements Serializable {
 	public void setOrder(Order order) {
 		this.order = order;
 	}
+	
 	public Product getProduct() {
 		return product;
 	}
