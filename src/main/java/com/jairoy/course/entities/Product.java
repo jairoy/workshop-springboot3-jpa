@@ -67,9 +67,7 @@ public class Product implements Serializable {
 
 	public String getImgUrl() {
 		return imgUrl;
-	}
-
-	
+	}	
 	
 	public Double getPrice() {
 		return price;
